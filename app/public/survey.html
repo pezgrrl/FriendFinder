@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <!-- custom stylesheet -->
-    <link rel="stylesheet" type="text/css" href="../public/survey-style.css">
+    <link rel="stylesheet" type="text/css" href="/static/survey-styles.css">
+    </style>
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
@@ -12,9 +13,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
         crossorigin="anonymous"></script>
     <!-- skeleton stylesheet -->
-    <link rel="stylesheet" type="text/css" href="../public/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="/static/skeleton.css">
+    </style>
     <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Ubuntu:300,300i" rel="stylesheet">
     <!-- Chosen -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
@@ -36,93 +38,120 @@
                     <label for="image">Put a link here to a photo or drawing of yourself.</label>
                     <input class="u-full-width" type="text" id="image">
 
-                    <label for="q1">I enjoy writing like I'm running out of time</label>
+                    <hr>
+
+                    <h3><strong>Question 1</strong></h3>
+                    <h4>I enjoy writing like I'm running out of time</h4>
                     <select class="u-half-width" id="q1">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q2">I keep my opinions to myself</label>
+                    <h3><strong>Question 2</strong></h3>
+                    <h4>I keep my opinions to myself</h4>
                     <select class="u-half-width" id="q2">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q3">I enjoy reading</label>
+
+                    <h3><strong>Question 3</strong></h3>
+                    <h4>I enjoy reading</h4>
                     <select class="u-half-width" id="q3">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q4">I am petty and vindictive</label>
+
+                    <h3><strong>Question 4</strong></h3>
+                    <h4>I am petty and vindictive</h4>
                     <select class="u-half-width" id="q4">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q5">I am kind and have empathy for others</label>
+
+                    <h3><strong>Question 5</strong></h3>
+                    <h4>I am kind and have empathy for others</h4>
                     <select class="u-half-width" id="q5">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q6">I believe I am destined for greatness</label>
+
+                    <h3><strong>Question 6</strong></h3>
+                    <h4>I believe I am destined for greatness</h4>
                     <select class="u-half-width" id="q6">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q7">I prefer lying in wait</label>
+
+                    <h3><strong>Question 7</strong></h3>
+                    <h4>I prefer lying in wait</h4>
                     <select class="u-half-width" id="q7">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q8">Family is very important to me</label>
+                    <h3><strong>Question 8</strong></h3>
+                    <h4>Family is very important to me</h4>
                     <select class="u-half-width" id="q8">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q9">I am looking for my intellectual equal.</label>
+                    <h3><strong>Question 9</strong></h3>
+                    <h4>I am looking for my intellectual equal</h4>
                     <select class="u-half-width" id="q9">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
-                    <label for="q10">Using force to quash your enemies, totally awesome, amirite?</label>
+                    <h3><strong>Question 10</strong></h3>
+                    <h4>Using force to quash your enemies, totally awesome, amirite?</h4>
                     <select class="u-half-width" id="q10">
+                        <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2 (Somewhat Disagree</option>
-                        <option value="3">3 (Meh)</option>
-                        <option value="4">4 (Somewhat Agree</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
                         <option value="5">5 (Strongly Agree)</option>
                     </select>
 
@@ -159,6 +188,16 @@
         </div>
     </div>
 
+    <!-- border divs-->
+    <div id="top">
+    </div>
+    <div id="bottom">
+    </div>
+    <div id="left">
+    </div>
+    <div id="right">
+    </div>
+
 </body>
 
 <script type="text/javascript">
@@ -178,14 +217,11 @@
             width: "95%"
         }
     };
-
     for (var selector in config) {
         $(selector).chosen(config[selector]);
     }
-
     // Capture the form inputs
     $("#submit").on("click", function () {
-
         // Form validation
         function validateForm() {
             var isValid = true;
@@ -194,16 +230,13 @@
                     isValid = false;
                 }
             });
-
             $(".chosen-select").each(function () {
-
                 if ($(this).val() === "") {
                     isValid = false;
                 }
             });
             return isValid;
         }
-
         // If all required fields are filled
         if (validateForm()) {
             // Create an object for the user"s data
@@ -223,25 +256,19 @@
                     $("#q10").val()
                 ]
             };
-
             // Grab the URL of the website
             var currentURL = window.location.origin;
-
             // AJAX post the data to the friends API.
             $.post(currentURL + "/api/friends", userData, function (data) {
-
                 // Grab the result from the AJAX post so that the best match's name and photo are displayed.
                 $("#matchName").text(data.name);
                 $("#matchImg").attr("src", data.photo);
-
                 // Show the modal with the best match
                 $("#resultsModal").modal("toggle");
-
             });
         } else {
             alert("Please fill out all fields before submitting!");
         }
-
         return false;
     });
 </script>

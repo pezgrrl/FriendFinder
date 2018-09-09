@@ -1,4 +1,4 @@
-[
+var friends = [
     {
     "name": "Alexander Hamilton",
     "photo": "https://media.giphy.com/media/d4bmtcUmgA8ylgCk/giphy.gif",
@@ -77,6 +77,10 @@
     "1",
     "1",
     "5"
-    ]
-    },
 ]
+}
+
+];
+
+
+module.exports = friends;
